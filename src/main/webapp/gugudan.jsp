@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <% 
-	String strDan = request.getParameter("name"); //request의 parameter 는 다 문자로 관리한다
+	String strDan = request.getParameter("dan"); //request의 parameter 는 다 문자로 관리한다
 	int dan = Integer.parseInt(strDan);
 %>
 
